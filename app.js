@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors'); 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3003;
 //const dbURI = 'mongodb://127.0.0.1:27017/todoApsp'; 
 const dbURI = process.env.MONGO_URI;
 require('dotenv').config();

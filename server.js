@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3003;
 const FRONTEND_URI = process.env.FRONTEND_URI;
 const MONGO_URI = process.env.MONGO_URI;
 
